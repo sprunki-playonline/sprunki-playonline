@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sprunki - Creative Music Mixing Game | Create Your Own Musical Masterpiece</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Play Sprunki, the innovative music mixing game where you can create unique musical pieces through simple drag-and-drop actions. Perfect for both music enthusiasts and beginners.">
+    <meta name="keywords" content="Sprunki, music game, music mixing, music creation, drag and drop music, musical creativity, rhythm game">
+    <meta name="author" content="Sprunki Game">
+    
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="Sprunki - Creative Music Mixing Game">
+    <meta property="og:description" content="Create unique musical pieces through simple drag-and-drop actions in this innovative music mixing game.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://sprunki.game/images/og-image.jpg">
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Custom Styles -->
+    <style>
+        @media (max-width: 640px) {
+            .game-container {
+                aspect-ratio: 9/16;
+                padding: 0.5rem;
+            }
+            .intro-section {
+                padding: 1rem;
+            }
+        }
+        
+        /* Smooth scrolling */
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        /* Better text readability */
+        .text-content {
+            line-height: 1.8;
+        }
+    </style>
+</head>
+<body class="min-h-screen bg-gray-50">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-3">
+        <!-- Game Container -->
+        <div class="w-full flex flex-col items-center p-2 sm:p-4">
+            <div class="w-full max-w-md sm:max-w-lg md:max-w-xl aspect-[9/16] sm:aspect-[3/4] md:aspect-[4/5] relative">
+                <iframe
+                    title="Sprunki Music Mixing Game"
+                    src="https://sprunki.game/game/sprunki.html"
+                    class="absolute top-0 left-0 w-full h-full border-0 rounded-lg shadow-lg bg-white"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                ></iframe>
+            </div>
+        </div>
+
+        <!-- Introduction Section -->
+        <div class="mt-12 flex flex-col items-center px-4 sm:px-6 lg:px-8">
+            <div class="w-full max-w-4xl text-center space-y-8 mb-12">
+                <h1 class="text-5xl font-bold text-gray-900">Sprunki Music Mixer</h1>
+                <p class="text-gray-600 text-lg leading-relaxed">
+                    Welcome to Sprunki, your gateway to musical creativity! Dive into an immersive world where music creation becomes an exciting adventure. Through our intuitive drag-and-drop interface, you'll discover the joy of mixing different musical elements to create your own unique compositions. Whether you're an experienced musician or just starting your musical journey, Sprunki offers endless possibilities for creative expression.
+                </p>
+            </div>
+
+            <!-- Main Content -->
+            <div class="max-w-6xl w-full space-y-8">
+                <div class="bg-white p-6 lg:p-8 rounded-xl shadow-sm border border-gray-100">
+                    <!-- How to Play -->
+                    <h2 class="text-xl lg:text-2xl font-bold text-gray-900 mb-6 text-center">How to Play</h2>
+                    <div class="space-y-6 mb-8">
+                        <div class="bg-emerald-50 p-6 rounded-lg">
+                            <h3 class="font-semibold text-gray-800 mb-3">Basic Controls</h3>
+                            <div class="text-gray-600 space-y-3">
+                                <p>🎵 <strong>Drag and Drop Mechanics:</strong> Simply drag music icons from the selection panel and drop them onto characters. Each icon represents a unique sound or musical element.</p>
+                                <p>🎼 <strong>Character Interactions:</strong> Different characters can play various musical elements - some specialize in percussion, others in melody or harmony.</p>
+                                <p>🎹 <strong>Track Management:</strong> Use the control panel to adjust volume levels, mute specific tracks, or clear all elements to start fresh.</p>
+                            </div>
+                        </div>
+
+                        <div class="bg-emerald-50 p-6 rounded-lg">
+                            <h3 class="font-semibold text-gray-800 mb-3">Music Creation Process</h3>
+                            <div class="text-gray-600 space-y-3">
+                                <p>🎸 <strong>Style Selection:</strong> Choose from various musical genres including pop, electronic, classical, and more.</p>
+                                <p>🎧 <strong>Sound Experimentation:</strong> Mix and match different sound effects, beats, and melodies to create unique combinations.</p>
+                                <p>🎶 <strong>Rhythm Building:</strong> Layer different rhythmic elements to create complex and engaging patterns.</p>
+                            </div>
+                        </div>
+
+                        <div class="bg-emerald-50 p-6 rounded-lg">
+                            <h3 class="font-semibold text-gray-800 mb-3">Game Modes and Progression</h3>
+                            <div class="text-gray-600 space-y-3">
+                                <p>📈 <strong>Phase System:</strong> Progress through 10 unique phases, each introducing new musical elements and challenges.</p>
+                                <p>🌟 <strong>Special Editions:</strong></p>
+                                <ul class="list-disc pl-6 space-y-2">
+                                    <li><em>Infected Version:</em> Dark electronic themes with unique sound effects</li>
+                                    <li><em>Retake Edition:</em> Classic sounds reimagined with modern twists</li>
+                                    <li><em>Seasonal Events:</em> Special themed content during holidays</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Creation Tips -->
+                    <h2 class="text-xl lg:text-2xl font-bold text-gray-900 mb-6 mt-12">Advanced Music Creation Tips</h2>
+                    <div class="space-y-6">
+                        <div class="border-b border-gray-100 pb-6">
+                            <h3 class="font-semibold text-gray-800 mb-3">Professional Mixing Techniques</h3>
+                            <div class="text-gray-600 space-y-4">
+                                <div>
+                                    <h4 class="font-medium mb-2">Building Your Track</h4>
+                                    <ul class="list-disc pl-6 space-y-2">
+                                        <li>Start with a strong rhythmic foundation using drums or percussion</li>
+                                        <li>Layer melodic elements gradually to build complexity</li>
+                                        <li>Add harmonies and supporting elements to fill the sound space</li>
+                                        <li>Use effects sparingly to enhance specific moments</li>
+                                    </ul>
+                                </div>
+                                
+                                <div>
+                                    <h4 class="font-medium mb-2">Sound Balance</h4>
+                                    <ul class="list-disc pl-6 space-y-2">
+                                        <li>Maintain proper volume levels between different elements</li>
+                                        <li>Create contrast between sections for dynamic interest</li>
+                                        <li>Use the mute function to check how elements work together</li>
+                                        <li>Consider the frequency range of each element</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Section -->
+                    <h2 class="text-xl lg:text-2xl font-bold text-gray-900 mb-6 mt-12">Frequently Asked Questions</h2>
+                    <div class="space-y-6">
+                        <!-- Original FAQ items with expanded content -->
+                        <!-- ... [Previous FAQ content remains the same] ... -->
+                        
+                        <!-- New FAQ items -->
+                        <div class="bg-white rounded-xl border border-gray-100 overflow-hidden">
+                            <h3 class="text-lg font-semibold text-gray-900 p-4 pb-2">
+                                Can I save and share my creations?
+                            </h3>
+                            <div class="text-gray-600 px-4 pb-4">
+                                <p class="mb-3">Yes! Sprunki offers several ways to preserve and share your musical creations:</p>
+                                <ul class="list-disc pl-6 space-y-2">
+                                    <li>Save unlimited compositions to your personal library</li>
+                                    <li>Share directly to social media platforms</li>
+                                    <li>Export your creations as audio files</li>
+                                    <li>Collaborate with other creators in the community</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="bg-white rounded-xl border border-gray-100 overflow-hidden">
+                            <h3 class="text-lg font-semibold text-gray-900 p-4 pb-2">
+                                Are there any community features?
+                            </h3>
+                            <div class="text-gray-600 px-4 pb-4">
+                                <p class="mb-3">Sprunki has a vibrant community with various features:</p>
+                                <ul class="list-disc pl-6 space-y-2">
+                                    <li>Weekly community challenges and contests</li>
+                                    <li>Collaborative creation rooms</li>
+                                    <li>Community voting on featured tracks</li>
+                                    <li>Tutorial sharing from experienced creators</li>
+                                </ul>
+                            </div>
+                        </div>
+<div class="bg-white rounded-xl border border-gray-100 overflow-hidden mt-6">
+  <h3 class="text-lg font-semibold text-gray-900 p-4 pb-2">
+    Related Game Sites <span>🕹️</span>
+  </h3>
+  <div class="text-gray-600 px-4 pb-4 space-y-2">
+    <ul class="list-disc pl-6 space-y-2">
+      <li><a href="https://connectionsunlimited.me" class="text-blue-600 hover:underline" target="_blank">connectionsunlimited.me</a>: Addictive word grouping puzzle game to find hidden connections.</li>
+      <li><a href="https://worldle.club" class="text-blue-600 hover:underline" target="_blank">worldle.club</a>: Geography-based Wordle variant where players guess countries.</li>
+      <li><a href="https://2048game.space" class="text-blue-600 hover:underline" target="_blank">2048game.space</a>: Space-themed variant of 2048, keeping the original merging mechanics.</li>
+      <li><a href="https://sprunky.win" class="text-blue-600 hover:underline" target="_blank">sprunky.win</a>: Advanced version of Sprunki featuring complex musical composition tools and extended sound libraries. Includes special modes like Night Time and Interactive editions.</li>
+      <li><a href="https://quordle.cc" class="text-blue-600 hover:underline" target="_blank">quordle.cc</a>: Solve four Wordle puzzles simultaneously with limited attempts.</li>
+      <li><a href="https://pacman.work" class="text-blue-600 hover:underline" target="_blank">pacman.work</a>: Exciting world of Pacman game.</li>
+      <li><a href="https://todaywordle.org" class="text-blue-600 hover:underline" target="_blank">todaywordle.org</a>: Daily word guessing game in the style of Wordle.</li>
+      <li><a href="https://letterboxed.me" class="text-blue-600 hover:underline" target="_blank">letterboxed.me</a>: Word puzzle game where players connect letters to form words in a box.</li>
+      <li><a href="https://wordlesolver.cc" class="text-blue-600 hover:underline" target="_blank">wordlesolver.cc</a>: Tool that helps find possible solutions for Wordle puzzles.</li>
+      <li><a href="https://minesweeper.tv" class="text-blue-600 hover:underline" target="_blank">minesweeper.tv</a>: Logic puzzle game where players clear a minefield using clues.</li>
+    </ul>
+  </div>
+</div>
+
+                    </div>
+
+                    <!-- Additional Resources -->
+                    <h2 class="text-xl lg:text-2xl font-bold text-gray-900 mb-6 mt-12">Additional Resources</h2>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div class="bg-blue-50 p-6 rounded-lg">
+                            <h3 class="font-semibold text-gray-800 mb-3">Learning Center</h3>
+                            <ul class="text-gray-600 space-y-2">
+                                <li>• Comprehensive video tutorials</li>
+                                <li>• Music theory basics</li>
+                                <li>• Rhythm and timing guides</li>
+                                <li>• Advanced mixing techniques</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="bg-purple-50 p-6 rounded-lg">
+                            <h3 class="font-semibold text-gray-800 mb-3">Community Support</h3>
+                            <ul class="text-gray-600 space-y-2">
+                                <li>• Active Discord community</li>
+                                <li>• Weekly featured artists</li>
+                                <li>• Community challenges</li>
+                                <li>• Feedback sessions</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="mt-16 bg-gray-50 border-t border-gray-100">
+        <div class="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
+            <p class="text-center text-gray-500 text-sm">
+                © 2025 Sprunki Music Mixer. All rights reserved. Create, mix, and share your musical journey.
+            </p>
+        </div>
+    </footer>
+</body>
+</html> 
